@@ -80,7 +80,7 @@ After setting up the backend, Elasticsearch, and frontend, you can start using t
 
 ## Diagram
 
-![inforeach_process_diagram.png](inforeach_process_diagram.png)
+![inforeach_process_diagram](https://github.com/uyqv/document-chatbot/assets/91852161/27794855-ef20-4af5-b781-dfa8a1a3f4a5)
 
 ## License
 

@@ -1,0 +1,81 @@
+.App {
+  font-family: 'Arial', sans-serif;
+  text-align: left;
+  padding: 20px;
+  background-color: #282c34;
+  color: #fff;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.chat-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #444;
+  margin-bottom: 10px;
+  padding: 10px;
+  overflow-y: auto;
+  background-color: #20232a;
+}
+
+.message {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: block; /* Ensure messages take their own line */
+  max-width: 80%;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2);
+  word-wrap: break-word;
+}
+
+.user, .bot {
+  text-align: left;
+  margin-left: 0;
+}
+
+.user {
+  align-self: flex-start;
+  background-color: #007bff;
+  color: white;
+}
+
+.bot {
+  background-color: #333;
+  color: #ddd;
+  margin-bottom: 30px;
+}
+
+.input-area {
+  display: flex;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+
+.input-area input, .input-area button {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.input-area input {
+  flex-grow: 1;
+  margin-right: 5px;
+  background-color: #333;
+  border: 1px solid #444;
+  color: #ddd;
+}
+
+.input-area button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.input-area button:hover {
+  background-color: #0056b3;
+}
