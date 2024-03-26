@@ -80,7 +80,7 @@ After setting up the backend, Elasticsearch, and frontend, you can start using t
 
 ## Diagram
 
-![d_I1XEayD6.svg](..%2F..%2FAppData%2FLocal%2FTemp%2Fd_I1XEayD6.svg)
+![inforeach_process_diagram.png](inforeach_process_diagram.png)
 
 ## License
 
