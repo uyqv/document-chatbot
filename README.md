@@ -37,13 +37,24 @@ The Intelligent Document Assistant is a chatbot designed to provide users with i
     - Start the FastAPI server (in backend/):
 
     ```bash
-    uvicorn main:app --reload
+    uvicorn main:app
     ```
 
 2. **Elasticsearch Configuration:**
 
-    - Ensure Elasticsearch is running and accessible.
-    - Update `constants.py` with your Elasticsearch cloud ID, API key, and other relevant details.
+    - Ensure Elasticsearch is running locally.
+
+3. **More Configurations:**
+
+    - Create a "config.ini" file in common directory
+    - Fill out the following
+   ```bash
+   [DEFAULT]
+   ElasticCloudPassword = 
+   IndexName = 
+   OpenAIAPIKey = 
+   LLMModel =
+   ```
 
 3. **PDF Indexing:**
 

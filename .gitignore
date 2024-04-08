@@ -1,13 +1,7 @@
 /extras
-/requirements.txt
-/constants.py
 /package-lock.json
 /package.json
 /.vscode
 /node_modules
-/backend/chatbot.log
-/backend/ingest.log
-/backend/docs
 /.elasticsearch
-/backend/common
-/backend/__pycache__
+/src/backend/common/config.ini
